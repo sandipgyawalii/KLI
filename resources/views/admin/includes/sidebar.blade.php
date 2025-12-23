@@ -25,8 +25,8 @@
                 <a href="#" class="nav-link has-dropdown"><i class="far fa-file-alt"></i>
                     <span>Students</span></a>
                 <ul class="dropdown-menu">
-                    @if (Route::has('admin.blogcategory.index'))
-                        <li><a class="nav-link " href="{{ route('admin.blogcategory.index') }}">All Students </a></li>
+                    @if (Route::has('admin.student.index'))
+                        <li><a class="nav-link " href="{{ route('admin.student.index') }}">All Students </a></li>
                     @endif
 
                     @if (Route::has('admin.blog.index'))
@@ -44,8 +44,8 @@
             <li class="dropdown">
                 <a href="#" class="nav-link has-dropdown"><i class="far fa-file-alt"></i> <span>Courses</span></a>
                 <ul class="dropdown-menu">
-                    @if (Route::has('admin.blogcategory.index'))
-                        <li><a class="nav-link " href="{{ route('admin.blogcategory.index') }}">All Courses </a></li>
+                    @if (Route::has('admin.course.index'))
+                        <li><a class="nav-link " href="{{ route('admin.course.index') }}">All Courses </a></li>
                     @endif
 
                     @if (Route::has('admin.blog.index'))
